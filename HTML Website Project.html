@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  margin: 0;
+}
+
+.header img {
+   max-width: 100%;
+   width: 100%;
+   display: block;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: BurlyWood;
+  border: 0.5px solid black;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: underline;
+  font-size: 20px;
+  font: Times New Roman;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {
+  display: flex;
+  max-width: 100%;
+  max-length: 100%;
+}
+
+.main {
+  flex: 50%;
+  background-color: AntiqueWhite;
+  padding: 10px;
+  }
+
+.side {
+  flex: 50%;
+  background-color: BurlyWood;
+  padding: 10px;
+  }
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+
+@media screen and (max-width: 400px) {
+  .navbar a, .row, .main, .side, .header img {
+    float: none;
+    width: 100%;
+    flex-direction: column;
+  }
+</style>
+</head>
+<body>
+<div class="header img">
+<img src="https://crediblesoft.com/wp-content/uploads/2018/09/test-center-banner.jpg";>
+</div>
+<div class="navbar">
+  <a href="https://www.linkedin.com/in/gabriel-florian-marica-443bb0228/" target="_blank">LinkedIn</a>
+  <a href="https://drive.google.com/file/d/10UCjKLPsOUzPBiFKzOjTnrm6PSnhNXOB/view?usp=sharing" target="_blank">GoIT Certificate</a>
+</div>
+<div class="row">
+<div class="side">
+   <h1 style="font-family: Lucida Console";>Contact:</h1>
+   <p style="font-size:20px; font-family:Georgia;"><b>Email address:</b> <a href="mailto:gabrielflorian1992@gmail.com">gabrielflorian1992@gmail.com</a></p>
+   <p style="font-size:20px; font-family:Georgia;"><b>Phone Number: </b>+40733979470</p>
+   <p style="font-size:20px; font-family:Georgia;"><b>Hobbies:
+      <ul>
+        <li style="font-size:17px;">Reading</li>
+        <li style="font-size:17px;">Working Out</li>
+        <li style="font-size:17px;">Theatre</li>
+        <li style="font-size:17px;">Hiking</li>
+        <li style="font-size:17px;">Camping</li>
+      </ul>
+</div>
+<div class="main">
+   <h1 style="font-family: Lucida Console";>About Me</h1>
+    <p style="font-size:20px; font-family: Times New Roman";"> Hello there! I'm Gabriel Marica, a passionate individual eager to kickstart my career as a manual software tester. My journey into the world of software testing is fueled by a curiosity for understanding how software functions and a dedication to ensuring it performs at its best.</p>
+    <h1 style="font-family: Lucida Console";> Educational Background</h1>
+    <p style="font-size:20px; font-family: Times New Roman";">I hold a QA Manual certificate from GoIT Romania, where I honed my analytical skills and developed a keen eye for detail. My coursework equipped me with a solid foundation in manual testing techniques, providing me with the necessary knowledge to dive into the intricate world of software testing.<p>
+    <h1 style="font-family: Lucida Console";> Tools Proficiency</h1>
+    <p style="font-size:20px; font-family: Times New Roman";">While I am in the early stages of my career, I have familiarized myself with industry-standard testing tools, such as Postman, Jira, SQL database, and Trello. I am eager to expand my toolkit and stay updated on emerging technologies in the dynamic field of software testing.</p>
+    <h1 style="font-family: Lucida Console";> What Drives Me</h1>
+    <p style="font-size:20px; font-family: Times New Roman";">I am actively seeking opportunities to apply my skills and knowledge in a real-world setting. I am excited about the prospect of contributing to innovative projects, collaborating with experienced professionals, and making a meaningful impact in the software development lifecycle. 
+      If you're looking for a passionate and detail-oriented manual software tester with a commitment to quality, I'd love to connect and explore how I can contribute to your team's success. Let's embark on this journey together!</p>
+</div>
+</body>
+</html>
